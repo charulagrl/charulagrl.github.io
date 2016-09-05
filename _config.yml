@@ -21,7 +21,7 @@ detach:             false
 port:               4000
 host:               127.0.0.1
 show_dir_listing:   false
-baseurl:            ""
+baseurl:            "www.charul.com"
 
 permalink:          pretty
 
