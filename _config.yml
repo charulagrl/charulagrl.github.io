@@ -7,7 +7,7 @@ name:               "Charul Personal site"
 description:        "This is a personal site of Charul!"
 
 # jekyll-seo-tag, see: http://www.rubydoc.info/gems/jekyll-seo-tag/1.2.0
-# url:                "//charul.com"
+url:                "//charul.com"
 # author:             "Charul"
 # twitter:
 #   username:         "charulagrl"
@@ -21,7 +21,7 @@ detach:             false
 port:               4000
 host:               127.0.0.1
 show_dir_listing:   false
-baseurl:            "www.charul.com"
+baseurl:            ""
 
 permalink:          pretty
 
