@@ -7,10 +7,10 @@ name:               "Charul Personal site"
 description:        "This is a personal site of Charul!"
 
 # jekyll-seo-tag, see: http://www.rubydoc.info/gems/jekyll-seo-tag/1.2.0
-url:                "//charul.com"
-author:             "Charul"
-twitter:
-  username:         "charulagrl"
+# url:                "//charul.com"
+# author:             "Charul"
+# twitter:
+#   username:         "charulagrl"
 #facebook:
 #  app_id:           1234
 #    publisher:      1234
@@ -35,28 +35,24 @@ incremental:        false
 # Navigation
 nav:
   - name:           "About"
-    href:           "//kiko.gfjaru.com/about"
-  - name:           "Download"
-    href:           "//github.com/gfjaru/Kiko/releases"
+    href:           "/about"
+  - name:           "Projects"
+    href:           "/projects"
+  - name:           "Resume"
+    href:           ""
 
 # Sass
 sass:
   style:            :compressed
 
-# Scopes
-defaults:
-  -
-    scope:
-      path:         ""
-      type:         "pages"
-    values:
-      layout:       "page"
-  -
-    scope:
-      path:         ""
-      type:         "posts"
-    values:
-      layout:       "post"
+exclude:
+  - CNAME
+  - Gemfile
+  - Rakefile
+  - README.md
+  - .gitignore
+  - .sass-cache
+  - Gemfile.lock
 
 gems:
   - jekyll-seo-tag

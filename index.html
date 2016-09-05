@@ -3,11 +3,11 @@ layout: default
 ---
 <header class="masthead">
   <h1 class="masthead-title">
-    <a href="{{ site.baseurl }}/">{{ site.name }}<span>&#39;s blog</span></a>
+    <a href="{{ site.baseurl }}/">{{ site.name }}</a>
   </h1>
   <nav class="masthead-nav">
     {% for nav in site.nav %}
-    <a href="{{ nav.href }}">{{ nav.name }}</a>
+    <a href="{{ nav.href | prepend: site.baseurl }}">{{ nav.name }}</a>
     {% endfor %}
   </nav>
 </header>
