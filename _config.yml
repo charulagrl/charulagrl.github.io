@@ -1,27 +1,36 @@
 # # # # # # # #
-#   K i k o   #
+#   Charul    #
 # # # # # # # #
 
 # Basic
-name:               "Kiko"
-description:        "a clean, lightweight and minimalistic blog theme for jekyll"
+name:               "Charul Personal site"
+description:        "This is a personal site of Charul!"
 
 # jekyll-seo-tag, see: http://www.rubydoc.info/gems/jekyll-seo-tag/1.2.0
-url:                "//kiko.gfjaru.com"
-author:             "gfjaru"
+url:                "//charul.com"
+author:             "Charul"
 twitter:
-  username:         "gfjaru"
+  username:         "charulagrl"
 #facebook:
 #  app_id:           1234
 #    publisher:      1234
 
-# URL
+
+# Serving
+detach:             false
+port:               4000
+host:               127.0.0.1
+show_dir_listing:   false
 baseurl:            ""
-#baseurl:            "" #For Root Domain
-permalink:          /:year/:month/:day/:title/
+
+permalink:          pretty
 
 # Markdown
 markdown:           kramdown
+highlighter:        rouge
+lsi:                false
+excerpt_separator:  "\n\n"
+incremental:        false
 
 # Navigation
 nav:
