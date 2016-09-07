@@ -2,18 +2,23 @@
 #   Charul    #
 # # # # # # # #
 
-# Basic
-name:               "Charul Personal site"
-description:        "This is a personal site of Charul!"
+# Uncomment when you finally deploy on production
+# url: "http://charul.com"
 
-# jekyll-seo-tag, see: http://www.rubydoc.info/gems/jekyll-seo-tag/1.2.0
-url:                "//charul.com"
-# author:             "Charul"
-# twitter:
-#   username:         "charulagrl"
-#facebook:
-#  app_id:           1234
-#    publisher:      1234
+# Basic
+trio:
+  name:               "Charul's Blog"
+  description:        "This is a personal site of Charul!"
+  
+  # Social services usernames
+  social:
+    github: charulagrl
+    twitter: charulagrl
+  
+  # Google Analytics key, leave blank to ignore
+  # google_analytics_key: 
+  # Disqus
+  disqus_key: charul
 
 
 # Serving
@@ -38,13 +43,16 @@ nav:
     href:           "/about"
   - name:           "Projects"
     href:           "/projects"
-  - name:           "Resume"
-    href:           ""
+  - name:           "Blog"
+    href:           "/"
 
 # Sass
 sass:
-  style:            :compressed
+  sass_dir: assets/_sass
+  style: :compressed
 
+
+ 
 exclude:
   - CNAME
   - Gemfile

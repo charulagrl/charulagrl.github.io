@@ -1,6 +1,8 @@
 ---
-title: About
+layout: default
+title: Projects
 permalink: /projects/
 ---
 
-These are the projects 
+<div>
+</div>

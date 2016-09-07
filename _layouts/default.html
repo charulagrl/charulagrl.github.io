@@ -3,14 +3,24 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.name }}{% endif %}</title>
+  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.trio.name }}{% endif %}</title>
   <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,600">
-  <link rel="stylesheet" href="{{ site.baseurl }}/style.css">
-  <link rel="alternate" type="application/rss+xml" title="RSS Feed for {{ site.name }}" href="{{ site.baseurl }}/feed.xml" />
-  {% seo %}
+  <link rel="stylesheet" type="text/css" href="{{ site.url }}/assets/css/main.css">
+  <link rel="alternate" type="application/rss+xml" title="RSS Feed for {{ site.name }}" href="{{ site.url }}/feed.xml" />
+  {% include google_analytics.html %}
 </head>
 <body>
   <div class="container">
+    <header class="masthead">
+      <h1 class="masthead-title">
+        <a href="{{ site.baseurl }}/">{{ site.trio.name }}</a>
+      </h1>
+      <nav class="masthead-nav">
+        {% for nav in site.nav %}
+        <a href="{{ nav.href | prepend: site.baseurl }}">{{ nav.name }}</a>
+        {% endfor %}
+      </nav>
+    </header>
     {{ content }}
   </div>
 </body>
