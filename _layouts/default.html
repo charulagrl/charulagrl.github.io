@@ -17,7 +17,11 @@
       </h1>
       <nav class="masthead-nav">
         {% for nav in site.nav %}
-        <a href="{{ nav.href | prepend: site.baseurl }}">{{ nav.name }}</a>
+          {% if page.url == nav.href %}
+            <a class="selected" href="{{ nav.href | prepend: site.baseurl }}">{{ nav.name }}</a>
+          {% else %}
+            <a href="{{ nav.href | prepend: site.baseurl }}">{{ nav.name }}</a>
+          {% endif %}
         {% endfor %}
       </nav>
     </header>

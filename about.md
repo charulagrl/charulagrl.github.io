@@ -16,7 +16,7 @@ permalink: /about/
   	
 <div class="social-media">
 	<h3>Follow me on:</h3>
-  <span><a href="https://github.com/charulagrl"><i class="fa fa-github git-ic" aria-hidden="true"></i></a></span>
+  <span><a href="https://github.com/{{site.trio.social.github}}"><i class="fa fa-github git-ic" aria-hidden="true"></i></a></span>
   <span><a href="https://twitter.com/charulagrl"><i class="fa fa-twitter twitter-ic" aria-hidden="true"></i></a></span>
   <span><a href="https://www.facebook.com/honeycoding"><i class="fa fa-facebook-official facebook-ic" aria-hidden="true"></i></a></span>
   <span><a href="https://in.linkedin.com/in/charulagrl"><i class="fa fa-linkedin-square linkedin-ic" aria-hidden="true"></i></a></span>
