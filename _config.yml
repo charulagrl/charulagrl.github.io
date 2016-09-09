@@ -3,7 +3,7 @@
 # # # # # # # #
 
 # Uncomment when you finally deploy on production
-# url: "http://charul.com"
+url: "http://charul.com"
 
 # Basic
 trio:
