@@ -7,6 +7,8 @@ permalink: /about/
 <div class="bio">
 	<div class="about">
 		Charul is a software developer based in Bangalore, India. She is currently working as a Reviewer at <a href="https://www.udacity.com">Udacity</a>. She mentors student taking Front-End and Full Stack nanodegree. Before this, she was a Software developer at <a href="https://www.pagalguy.com">Pagalguy</a> in Mumbai. She interned with <a href="https://summerofcode.withgoogle.com/">Google Summer of Code</a> and worked on Fedora Project Shumgrepper. She was selected as a Finalist for <a href="http://www.computerdealernews.com/slideshows/these-women-are-being-recognized-as-the-new-face-of-open-source?utm_content=bufferf162b&utm_medium=social&utm_source=facebook.com&utm_campaign=buffer">Red Hat Women in Open Source Award</a>. 
+		<br><br>
+		<i class="fa fa-file-pdf-o" aria-hidden="true"></i>  <a href="https://www.dropbox.com/s/knz9g7wdpkdh3aw/charul.pdf?dl=0">Download my resume</a>
 	</div>
 	<div class="biopic"><img src="{{site.url}}/assets/images/charul.jpg" alt="charul"></div>
 </div>

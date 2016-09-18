@@ -3,7 +3,8 @@
 # # # # # # # #
 
 # Uncomment when you finally deploy on production
-url: "http://charul.com"
+# url: "http://charul.com"
+url: "http://localhost:4000/"
 
 # Basic
 trio:

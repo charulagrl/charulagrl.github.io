@@ -434,9 +434,44 @@ tbody tr:nth-child(odd) th {
 
 .about {
   width: 70%;
+  text-align: justify;
+  padding-right: 20px;
 }
 
 .biopic {
   width: 30%;
   border-radius: 100%;
+}
+
+/* project page */
+.project {
+  display: flex;
+}
+
+.projects-list:last-child {
+  margin-bottom: 50px;
+}
+
+.project-image {
+  height: 100px;
+  width: 100px;
+  margin: 1.0vw 1.0vw 1.0vw 1.0vw;
+}
+
+.project-details {
+  color: #515151;
+  margin: 1.0vw 1.0vw 1.0vw 1.0vw;
+}
+
+.project-title {
+  color: #515151;
+  font-weight: bold;
+}
+
+.projects a {
+  text-decoration: none;
+}
+
+.projects a:hover {
+  background-color: yellow;
 }
