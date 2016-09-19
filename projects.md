@@ -29,13 +29,15 @@ permalink: /projects/
 				</div>
 			</a>
 			<hr>
-			<div class="project">
-				<img class="project-image" src="{{site.url}}/assets/images/probability.jpg" alt="smartphone-health">
-				<div class="project-details">
-					<p class="project-title">Probability Made Easy via Gamification</p>
-					<p class="project-description">a game developed at MIT Media Lab workshop that teaches children probability by introducing a story line driven interactive game</p>
+			<a href="https://www.dropbox.com/s/0evw9n8di3jng14/Personality.pdf?dl=0" target="_blank">
+				<div class="project">
+					<img class="project-image" src="{{site.url}}/assets/images/probability.jpg" alt="smartphone-health">
+					<div class="project-details">
+						<p class="project-title">Probability Made Easy via Gamification</p>
+						<p class="project-description">a game developed at MIT Media Lab workshop that teaches children probability by introducing a story line driven interactive game</p>
+					</div>
 				</div>
-			</div>
+			</a>
 			<hr>
 			<div class="project">
 				<img class="project-image" src="{{site.url}}/assets/images/smartphone-health.jpg" alt="smartphone-health">
