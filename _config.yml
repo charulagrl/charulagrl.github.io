@@ -8,7 +8,7 @@ url: "http://charul.com"
 
 # Basic
 trio:
-  name:               "Charul's Blog"
+  name:               "Charul's Portfolio"
   description:        "This is a personal site of Charul!"
   
   # Social services usernames
@@ -41,11 +41,9 @@ incremental:        false
 # Navigation
 nav:
   - name:           "About"
-    href:           "/about/"
+    href:           "/"
   - name:           "Projects"
     href:           "/projects/"
-  - name:           "Blog"
-    href:           "/"
 
 # Sass
 sass:

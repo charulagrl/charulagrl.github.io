@@ -29,7 +29,7 @@ permalink: /projects/
 				</div>
 			</a>
 			<hr>
-			<a href="https://www.dropbox.com/s/0evw9n8di3jng14/Personality.pdf?dl=0" target="_blank">
+			<a href="https://www.dropbox.com/s/5gm1naqynrturtm/MIT%20Probability%20Made%20Easy%20Game%20version.pptx?dl=0" target="_blank">
 				<div class="project">
 					<img class="project-image" src="{{site.url}}/assets/images/probability.jpg" alt="smartphone-health">
 					<div class="project-details">
@@ -39,13 +39,15 @@ permalink: /projects/
 				</div>
 			</a>
 			<hr>
-			<div class="project">
-				<img class="project-image" src="{{site.url}}/assets/images/smartphone-health.jpg" alt="smartphone-health">
-				<div class="project-details">
-					<p class="project-title">Improve healthcare through smartphones</p>
-					<p class="project-description">collects patient’s vital information and sends updates in timely manner to the concerned doctor</p>
+			<a href="https://www.dropbox.com/s/fct1165vvcgwoxn/Healthcare.pdf?dl=0" target="_blank">
+				<div class="project">
+					<img class="project-image" src="{{site.url}}/assets/images/smartphone-health.jpg" alt="smartphone-health">
+					<div class="project-details">
+						<p class="project-title">Improve healthcare through smartphones</p>
+						<p class="project-description">collects patient’s vital information and sends updates in timely manner to the concerned doctor</p>
+					</div>
 				</div>
-			</div>
+			</a>
 		</div>
 	</div>
 	<div id="open-source">
