@@ -44,6 +44,8 @@ nav:
     href:           "/"
   - name:           "Projects"
     href:           "/projects/"
+  - name:           "Experience"
+    href:           "/experience/"
 
 # Sass
 sass:

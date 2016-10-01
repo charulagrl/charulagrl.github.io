@@ -66,7 +66,7 @@ permalink: /projects/
 			<hr>
 			<a href="https://apps.fedoraproject.org/datagrepper/" target="_blank">
 				<div class="project">
-					<img class="project-image" src="{{site.url}}/assets/images/datagrepper.png" alt="datagrepper">
+					<img class="project-image" src="{{site.url}}/assets/images/fedora.png" alt="datagrepper">
 					<div class="project-details">
 						<p class="project-title">Datagrepper</p>
 						<p class="project-description">display all kinds of historical data on fedora</p>

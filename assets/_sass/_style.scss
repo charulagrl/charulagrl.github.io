@@ -479,3 +479,33 @@ tbody tr:nth-child(odd) th {
 .projects a:hover {
   background-color: yellow;
 }
+
+/* experience page */
+.experience {
+    display: flex;
+}
+
+.experience-details {
+
+}
+
+.work-description {
+  font-size: 16px;
+  text-align: justify;
+}
+
+.company-image {
+  height: 85px;
+  width: 85px;
+  margin: 1.0vw 1.0vw 1.0vw 1.0vw;
+}
+
+.role {
+  font-weight: 600;
+  margin-bottom: 0px;
+}
+
+.time-period {
+  font-size: 16px;
+  font-weight: 400;
+}
